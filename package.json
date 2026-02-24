@@ -8,7 +8,8 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "vercel-deploy": "node node_modules/vercel-deploy/deploy.js",
-    "check-deploy": "node node_modules/vercel-deploy/check-deploy.js"
+    "check-deploy": "node node_modules/vercel-deploy/check-deploy.js",
+    "create-post": "node create-post.js"
   },
   "hexo": {
     "version": "7.3.0"
