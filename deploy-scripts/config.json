@@ -1,0 +1,11 @@
+{
+  "defaultCommitMessage": "Auto deploy from OpenClaw",
+  "branch": "main",
+  "vercelAutoDeploy": true,
+  "deployWaitTime": 10000,
+  "notification": {
+    "enabled": false,
+    "email": "",
+    "webhook": ""
+  }
+}
