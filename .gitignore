@@ -21,3 +21,5 @@ Thumbs.db
 # Hexo temp files
 *.tmp
 *.bak
+
+.vercel

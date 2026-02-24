@@ -6,10 +6,12 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "vercel-deploy": "node node_modules/vercel-deploy/deploy.js",
+    "check-deploy": "node node_modules/vercel-deploy/check-deploy.js"
   },
   "hexo": {
-    "version": ""
+    "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.0.0",
@@ -22,5 +24,8 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0"
+  },
+  "devDependencies": {
+    "vercel-deploy": "file:../skills/vercel-deploy"
   }
 }
