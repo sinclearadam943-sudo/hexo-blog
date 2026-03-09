@@ -1,0 +1,112 @@
+# hexo-theme-butterfly 配置
+
+# 语言
+language: zh-CN
+
+# 侧边栏配置
+sidebar:
+  enable: true
+  position: left
+  width: 300px
+  offsetTop: 20px
+  sticky: true
+
+# 侧边栏组件配置
+widgets:
+  # 最新文章
+  recent_posts:
+    enable: true
+    display: true
+    number: 5
+    order_by: date
+    order: desc
+  
+  # 分类
+  categories:
+    enable: true
+    display: true
+    show_count: true
+  
+  # 标签云
+  tagcloud:
+    enable: true
+    display: true
+    min_font: 12
+    max_font: 24
+    color: true
+  
+  # 归档
+  archives:
+    enable: true
+    display: true
+    type: month
+    show_count: true
+  
+  # 其他组件禁用
+  tag: false
+  categories_menu: false
+  links: false
+  toc: false
+  views: false
+  recent_comments: false
+
+# 首页文章列表布局
+index_post_list:
+  layout: expand
+
+# 文章配置
+post:
+  navigation: true
+  content_width: 800px
+  copyright: true
+  reward: false
+  comment:
+    enable: false
+  share: false
+
+# 页面配置
+page:
+  content_width: 800px
+  copyright: true
+  comment:
+    enable: false
+
+# 主题颜色
+theme_color:
+  enable: true
+  change_btn: true
+  default: '#49b1f5'
+
+# 搜索配置
+search:
+  enable: true
+  service: hexo
+  hot_search:
+    enable: false
+
+# 代码高亮
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+
+# 动画
+animation:
+  enable: true
+  post_block: fadeIn
+  sidebar_block: fadeIn
+
+# 头像和站点信息
+author: 浩哥
+avatar: /image/avatar.png
+email:
+
+# 社交链接
+social:
+  github: https://github.com/sinclearadam943-sudo || GitHub
+
+# 底部信息
+footer:
+  copyright: 2026 © 浩哥的博客
+  icp:
+  since: 2026

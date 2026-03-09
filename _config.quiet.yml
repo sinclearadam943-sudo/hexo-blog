@@ -1,0 +1,89 @@
+# 网站标题
+title: 浩哥的博客
+# 网站标题后缀
+suffix: Hexo Blog
+# 作者名称
+author: 浩哥
+# 网站关键字
+keyword: 博客, Hexo, Quiet主题, 文学, 哲学
+# false是否开启文章背景图显示(随机图片)
+is_article_img: true  
+# 网站描述
+web_description: 记录技术与生活的博客
+# 首页文章布局 默认 'card' 可选择 'block-card'
+home_layout: card
+# 导航名称
+menus_title:
+  home: 首页
+  archive: 归档
+  categories: 分类
+  tags: 标签
+  links: 友链
+  about: 关于
+# 导航 （不建议修改）
+menus:
+  home: /
+  archive: /archives
+  categories: /categories
+  tags: /tags
+  links: /links
+  about: /about
+  
+# logo
+logo: /image/logo.png
+# 网页标签上那个小图标 一定要用本地存储
+icon: /image/favicon.ico
+# 每个页面的展示的图标和一句话
+headers:
+    home: {
+      message: "记录技术与生活",
+      icon: "/image/logo.png"
+    }
+    archives: {
+      message: "居然用了 year 年一共才写了 number 篇文章!",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
+    }
+    tags: {
+      message: "这里是一些展示的标签",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
+    }
+    links: {
+      message: "我和我的小伙伴们",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
+    }
+    categories: {
+      message: "文章分类",
+      icon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
+    }
+
+# 网页访问统计
+web_analytics:  
+  enable: false
+  baidu:  # 百度统计的 Key
+
+# 评论 
+gitalk:
+  clientID:  # GitHub Application Client ID
+  clientSecret:  # GitHub Application Client Secret
+  repo:  # GitHub repository
+  owner:  # GitHub repository 所有者
+  admin: [] # GitHub repository 的所有者和合作者
+
+# 底部显示的图标（github 或者其他）
+bottomIcon: 
+  - {
+    name: 'Github',
+    iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',
+    toUrl: 'https://github.com/sinclearadam943-sudo'
+  }
+# 友情链接
+linksList:
+  - {
+    title: 'Hexo',
+    intro: 'A fast, simple & powerful blog framework',
+    link: 'https://hexo.io/',
+    image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
+  }
+
+# 默认的cover (默认缩略图)
+default_cover: https://api.ixiaowai.cn/gqapi/gqapi.php
